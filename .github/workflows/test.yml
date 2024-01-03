@@ -17,5 +17,5 @@ jobs:
 
             - name: Deploy Bicep
               id: bicep
-              shell: bash
+              shell: pwsh
               run: cat ./infra/main.test
